@@ -8,7 +8,7 @@ const textForTimer = document.getElementsByClassName("timer__text")[0];
 const messageSucess = document.getElementsByClassName("message__success")[0];
 const messageFail = document.getElementsByClassName("message__fail")[0];
 let captchaPosition = document.getElementsByClassName('captcha')[0] ;
-let TIME_LEFT = 5000;
+let TIME_LEFT = 5500;
 let fTimer = null
 
 let generatingKeys = document.getElementsByClassName(buttonClassDefault);
