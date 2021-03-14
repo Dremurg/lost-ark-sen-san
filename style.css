@@ -51,12 +51,10 @@ body {
     width: 100%;
     background: linear-gradient(to right, #3399cc, #52a4c5);
     height: 100%;
+    transition: linear 5s;
 }
 .timer__scale--go {
     width: 0%;
-}
-.timer__scale--full {
-    width: 100%;
 }
 .timer__text {
     position: absolute;
@@ -72,13 +70,13 @@ body {
     text-transform: uppercase;
 }
 .message__success {
-    -webkit-text-stroke: 2px #56a1f0; /* свойство text-stroke наследуется, применяется ко всем элементам, изменяет текст */
+    -webkit-text-stroke: 2px #56a1f0;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #56a1f0;
     color: #fff;
 }
 .message__fail {
-    -webkit-text-stroke: 2px #e02e40; /* свойство text-stroke наследуется, применяется ко всем элементам, изменяет текст */
+    -webkit-text-stroke: 2px #e02e40;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #e02e40;
     color: #fff;
