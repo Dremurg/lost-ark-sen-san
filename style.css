@@ -30,7 +30,6 @@ body {
     color: #404042;
 }
 .captcha__letter--end {
-
     background: url("button-succesfull.png");
 }
 .captcha__letter--now {
